@@ -33,5 +33,5 @@ def impresion_datos(**data):
     diccionario_datos = {"marca":"Dell", "modelo":"Inspiron", "fecha":"2024"}
     copia_diccionario = {**diccionario_datos} # Otra forma de copiar un diccionario, usando el operador de desempaquetado
     impresion_datos(**copia_diccionario) # Esto funciona porque la función espera un solo argumento, y el operador de desempaquetado convierte el diccionario en argumentos independientes
-    
+     
     
