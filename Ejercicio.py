@@ -17,7 +17,7 @@ for estudiante in estudiantes:
     minimo = min(calificaciones)
 
     resultados[nombre] = {
-        "promedio": promedio,
+        "promedio": promedio,   
         "max": maximo,
         "min": minimo
     }
